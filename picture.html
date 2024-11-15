@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>picture</legend>
+    <picture>
+        <source media="(min-width:680px)" srcset="./assets/images/virat.jpg" height="200">
+        <source media="(min-width:480px)" srcset="./assets/images/dhoni.jpg" height="200">
+        <img src="./assets/images/shershaah.jpg" height="200">
+    </picture><br></br><br>
+    <select name="Fruits" id="Fruits" multiple>
+        <option value="apple">apple</option>
+        <option value="banana">banana</option>
+        <option value="grapes">grapes</option>
+    </select><br></br>
+    <input list="colors" name="clrs" id="clrs"/>
+    <datalist id="colors">
+        <option value="black">black</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+    </datalist><br><br>
+    <input type="submit"/>
+    <input type="submit" value="Enter" formaction="./day3.html"/>
+     </fieldset>
+</form>
+</body>
+</html>
